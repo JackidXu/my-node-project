@@ -4,4 +4,4 @@ var mongoose = require('mongoose')
 mongoose.Promise = require('bluebird')
 global.db = mongoose.connect("mongodb://localhost:27017/vuechat")
 
-module.exports = mongoose;
+module.exports = mongoose
